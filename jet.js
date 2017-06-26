@@ -1,10 +1,9 @@
-
 var Jet = function (color, size) {
   this.color = color;
   this.size = size;
 
 
-  this.tesfunc = function(){
+  this.tesfunc = function () {
     console.log('test');
   }
 
@@ -14,9 +13,14 @@ var Jet = function (color, size) {
   this.fly2 = function () {
     console.log('wish');
   }
+  this.takeOff2 = function () {
+    console.log('lift off!');
+  }
   this.takeOff = function () {
     console.log('lift off!');
   }
+
+
 }
 
 module.exports = Jet;
