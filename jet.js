@@ -1,4 +1,3 @@
-// 
 
 var Jet = function (color, size) {
   this.color = color;
@@ -6,6 +5,9 @@ var Jet = function (color, size) {
 
   this.fly = function () {
     console.log('wish');
+  }
+  this.takeOff = function () {
+    console.log('lift off!');
   }
 }
 
